@@ -73,7 +73,7 @@ The tags and values in `Halo3/` are Halo game content, not ours to license: they
 Microsoft, and are here under each author's terms ([CREDITS.md](CREDITS.md)) and Microsoft's Game Content Usage Rules.
 
 Your work in this pack? Tell us on the SPR Discord and we'll credit it differently or take it out:
-<https://discord.gg/eWaT5sFkX>
+<https://discord.gg/4bYtHw5JCW>
 
 *Halo © Microsoft Corporation. Halo 3 SPR Assets was created under Microsoft's "Game Content Usage Rules" using assets
 from Halo: The Master Chief Collection, and it is not endorsed by or affiliated with Microsoft.*

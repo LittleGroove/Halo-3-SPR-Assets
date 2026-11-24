@@ -521,7 +521,7 @@ The pack ships 62 custom sound banks (the stock ones are the game's own).
 ## Your work in this pack?
 
 If you made something in this pack and want it credited differently or taken out, tell us on the SPR Discord and we
-will do it: <https://discord.gg/eWaT5sFkX>
+will do it: <https://discord.gg/4bYtHw5JCW>
 
 ---
 
