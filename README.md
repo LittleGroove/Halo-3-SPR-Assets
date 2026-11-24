@@ -5,7 +5,7 @@ The SPR vehicles and weapons as Forge objects for any Halo 3 map on
 armour, weapon reach and lock-on range. This repository is its source: the tags it's built from, the SPR values, and
 the tools that build, check and package it.
 
-- **Players and hosts:** get the pack from the Steam Workshop: (link to be added). Hosting and Forge use are on that page.
+- **Players and hosts:** get the pack from the Steam Workshop: <https://steamcommunity.com/sharedfiles/filedetails/?id=3845034921> (unlisted). Hosting and Forge use are on that page.
 - **Who made what:** [CREDITS.md](CREDITS.md). Very little of it starts with us: every item comes from
   RejectedShotgun's HugeGrass, through our build of it, HugeGrass SPR.
 - **Version:** v1.0 (2026-11-23).

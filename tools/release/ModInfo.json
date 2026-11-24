@@ -1,6 +1,9 @@
 {
 	"ModIdentifier": {
-		"ModGuid": "419147af-6f57-4cd2-aa64-e4464fe2effe"
+		"ModGuid": "419147af-6f57-4cd2-aa64-e4464fe2effe",
+		"HostedModIds": {
+			"SteamWorkshopId": 3845034921
+		}
 	},
 	"ModVersion": {
 		"Major": 1,

@@ -12,7 +12,7 @@ they are.
 
 Researched on 23 November 2026. Anything we couldn't confirm is marked **(unconfirmed)**.
 
-- Steam Workshop item: (link to be added)
+- Steam Workshop item: <https://steamcommunity.com/sharedfiles/filedetails/?id=3845034921> (unlisted)
 - Source repository: (link to be added)
 - HugeGrass SPR, where every item comes from: <https://steamcommunity.com/sharedfiles/filedetails/?id=3832239928> (unlisted)
 - Made something in this pack? See [Your work in this pack?](#your-work-in-this-pack)
