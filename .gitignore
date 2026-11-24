@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+tools/mbtool/bin/
+tools/mbtool/obj/
+pack-*/
+*.map

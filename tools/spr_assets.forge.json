@@ -1,0 +1,14 @@
+{
+  "format": 1,
+  "world": {
+    "boundaries": {
+      "walls": true,
+      "guardians": true
+    },
+    "atmosphere": {},
+    "sky": null,
+    "gravity": null
+  },
+  "primitives": null,
+  "scaled_bodies": true
+}

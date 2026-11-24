@@ -1,0 +1,19 @@
+{
+ "about": "Our fixes to a base tag, applied by sprapply.py right after it copies the base to the SPR name and before the SPR values (the fixes-first rule, 2026-11-06). Keyed by the SPR tag's kit file. Ops: remove_named = remove the element of <block> whose <field> equals <value>; value = set a field (plugin path as tagfields writes it, value as [kind, value]) the way the walk's SPR values are set (mapped to H3EK's name, written, read back).",
+ "objects\\vehicles\\lich\\lich_spr.model": [
+  {"op": "remove_named", "block": "Block:variants", "field": "StringId:name", "value": "h5",
+   "why": "RJ's unfinished H5 variant: most exterior textures missing, see-through in Forge (host on LG Forge, 2026-11-23). PR offers each variant as its own Forge entry, so it went too."}
+ ],
+ "objects\\vehicles\\lich\\lich_spr.vehicle": [
+  {"op": "value", "path": "/Bounding Radius", "value": ["num", [20.25]],
+   "why": "LG fix, fit_spheres.py 'split' (2026-11-20/21): the flip prompt outranks every action, so the Lich's flip sphere is fitted to its model (20.0 + 0.25, was 32)."},
+  {"op": "value", "path": "/Bounding Offset", "value": ["num", [-1.4500000476837158, 1.5, 0.0]],
+   "why": "LG fix, fit_spheres.py 'split': the fitted sphere's centre (was 11, 2, 3.5, off the model)."},
+  {"op": "value", "path": "/Dynamic Light Sphere Radius", "value": ["num", [32.0]],
+   "why": "LG fix, fit_spheres.py 'split': the cluster sphere (seat entry, pickups, drawing, blasts) keeps the radius it had before fitting (host 2026-11-21: pilot seats stopped being offered when both spheres shrank)."}
+ ],
+ "objects\\vehicles\\lich\\damage_effects\\lich_beam_spr.damage_effect": [
+  {"op": "value", "path": "/Category", "value": ["enum", "High Explosive"],
+   "why": "RJ's compiled HugeGrass (what SPR plays) has High Explosive; his published source says Plasma."}
+ ]
+}

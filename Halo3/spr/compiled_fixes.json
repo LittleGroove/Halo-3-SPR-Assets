@@ -1,0 +1,7 @@
+{
+ "about": "Our fixes on fallback items (copied compiled from HugeGrass SPR, no source yet), made in the shipped map by compiled_fix.py after importtags. When an item gets source, its fix moves to fixes.json.",
+ "objects\\vehicles\\lich\\lich_spr.hlmt": [
+  {"op": "drop_last_named", "block": "Variants", "field": "Name", "value": "h5",
+   "why": "RJ's unfinished H5 variant: most exterior textures missing, see-through in Forge (host on LG Forge, 2026-11-23). PR offers each variant as its own Forge entry."}
+ ]
+}

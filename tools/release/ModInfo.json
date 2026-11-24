@@ -1,0 +1,39 @@
+{
+	"ModIdentifier": {
+		"ModGuid": "419147af-6f57-4cd2-aa64-e4464fe2effe"
+	},
+	"ModVersion": {
+		"Major": 1,
+		"Minor": 0,
+		"Patch": 0
+	},
+	"MinAppVersion": {
+		"Major": 0,
+		"Minor": 0,
+		"Patch": 0
+	},
+	"MaxAppVersion": {
+		"Major": 0,
+		"Minor": 0,
+		"Patch": 0
+	},
+	"Engine": "Halo3",
+	"Title": {
+		"Neutral": "Halo 3 SPR Assets"
+	},
+	"Description": {
+		"Neutral": "The SPR vehicles and weapons as Forge objects for any map, on Project Reclaimer. Version v1.0."
+	},
+	"InheritSharedFiles": "FromMCC",
+	"ModContents": {
+		"HasBackgroundVideos": false,
+		"HasNameplates": false
+	},
+	"GameModContents": {
+		"HasSharedFiles": false,
+		"HasCampaign": false,
+		"HasSpartanOps": false,
+		"HasController": false,
+		"MultiplayerMaps": []
+	}
+}

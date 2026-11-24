@@ -1,0 +1,648 @@
+{
+ "map": "S:/Projects/ProjectReclaimer/MODS/SPR/HugeGrass SPR/maps/hugegrass_spr.map",
+ "items": [
+  {
+   "tag": "objects\\vehicles\\banshee\\banshee_spr.vehi",
+   "label": "Banshee SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\banshee\\banshee.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\vehicles\\brute_chopper\\brute_chopper_spr.vehi",
+   "label": "Chopper SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\brute_chopper\\brute_chopper.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\vehicles\\hornet\\hornet_spr.vehi",
+   "label": "Hornet SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\hornet\\hornet.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\vehicles\\ghost\\ghost_spr.vehi",
+   "label": "Ghost SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\ghost\\ghost.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\vehicles\\mauler\\mauler_spr.vehi",
+   "label": "Prowler SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\mauler\\mauler.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\vehicles\\mongoose\\mongoose_spr.vehi",
+   "label": "Mongoose SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\mongoose\\mongoose.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\vehicles\\scorpion\\scorpion_spr.vehi",
+   "label": "Scorpion SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\scorpion\\scorpion.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\vehicles\\warthog\\warthog_spr.vehi",
+   "label": "Warthog SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\warthog\\warthog.vehi",
+   "source": "none",
+   "base_source": "stock",
+   "fallback_why": "its rocket turret (objects\\vehicles\\warthog\\turrets\\rocket, from the Rocket Warthog port) has no source"
+  },
+  {
+   "tag": "objects\\vehicles\\warthog\\warthog_gauss_spr.vehi",
+   "label": "Gauss Warthog SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\warthog\\warthog_gauss.vehi",
+   "source": "none",
+   "base_source": "stock",
+   "fallback_why": "its rocket turret (objects\\vehicles\\warthog\\turrets\\rocket, from the Rocket Warthog port) has no source"
+  },
+  {
+   "tag": "objects\\vehicles\\wraith\\wraith_spr.vehi",
+   "label": "Wraith SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\wraith\\wraith.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\levels\\dlc\\sidewinder\\hornet_lite\\hornet_lite_spr.vehi",
+   "label": "Hornet Lite SPR",
+   "shelf": "vehicles",
+   "base": "objects\\levels\\dlc\\sidewinder\\hornet_lite\\hornet_lite.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\vehicles\\shade\\shade_spr.vehi",
+   "label": "Shade SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\shade\\shade.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\vehicles\\wraith_anti_air_uf\\wraith_anti_air_uf_spr.vehi",
+   "label": "Anti-Air Wraith SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\wraith_anti_air_uf\\wraith_anti_air_uf.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\warthog\\warthog_troop_mp_spr.vehi",
+   "label": "Troop Warthog SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\warthog\\warthog_troop_mp.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\warthog\\warthog_wrecked_turret_spr.vehi",
+   "label": "Wrecked Warthog SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\warthog\\warthog_wrecked_turret.vehi",
+   "source": "none",
+   "base_source": "stock",
+   "fallback_why": "its rocket turret (objects\\vehicles\\warthog\\turrets\\rocket, from the Rocket Warthog port) has no source"
+  },
+  {
+   "tag": "objects\\vehicles\\space_banshee\\space_banshee_spr.vehi",
+   "label": "Space Banshee SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\space_banshee\\space_banshee.vehi",
+   "source": "none",
+   "base_source": "rj",
+   "fallback_why": "deep parity 2026-11-23: its projectile effect in RJ's repository isn't his compiled one (other parts; the flare's bitmap objects\\vehicles\\space_phantom\\bitmaps\\star_flare is missing)"
+  },
+  {
+   "tag": "objects\\vehicles\\warthog_civ\\warthog_civ_spr.vehi",
+   "label": "Civilian Warthog SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\warthog_civ\\warthog_civ.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\warthog_rocket\\warthog_rocket_spr.vehi",
+   "label": "Rocket Warthog SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\warthog_rocket\\warthog_rocket.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\ghost_aa\\ghost_aa_slow_spr.vehi",
+   "label": "AA Ghost SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\ghost_aa\\ghost_aa_slow.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\spectre\\spectre_spr.vehi",
+   "label": "Spectre SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\spectre\\spectre.vehi",
+   "source": "none",
+   "base_source": "rj",
+   "fallback_why": "its turret fires an SPR copy of the flyable Phantom's turret projectile (phantom_flyable), which has no source"
+  },
+  {
+   "tag": "objects\\vehicles\\spectre\\spectre_aa_spr.vehi",
+   "label": "AA Spectre SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\spectre\\spectre_aa.vehi",
+   "source": "none",
+   "base_source": "rj",
+   "fallback_why": "its turret fires an SPR copy of the flyable Phantom's turret projectile (phantom_flyable), which has no source"
+  },
+  {
+   "tag": "objects\\vehicles\\shadow\\shadow_fast_spr.vehi",
+   "label": "Shadow SPR",
+   "shelf": "vehicles",
+   "source_base": "objects\\vehicles\\shadow\\shadow.vehi",
+   "note": "objects\\vehicles\\shadow\\shadow_fast (RJ's variant) has no source: source copied from objects\\vehicles\\shadow\\shadow, RJ's changes via deep parity",
+   "base": "objects\\vehicles\\shadow\\shadow_fast.vehi",
+   "source": "none",
+   "base_source": "rj",
+   "fallback_why": "deep parity 2026-11-23: RJ's compiled Shadow isn't his repository's: its physics masses spread over the 7 shapes differently (no relative mass scales reproduce them), its gunner seat uses another animation, and its projectile has an effect his repository's lacks"
+  },
+  {
+   "tag": "objects\\vehicles\\skiff\\skiff_spr.vehi",
+   "label": "Skiff SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\skiff\\skiff.vehi",
+   "source": "none",
+   "base_source": "rj",
+   "fallback_why": "deep parity 2026-11-23: RJ's compiled Skiff is a rework beyond his repository: its gun (skiff_turret\\weapon\\skiff_gun, skiff_bullet) isn't in the repository, and the render model has new seat markers (skiff_p_lb) the repository's lacks; 82 vehicle fields differ"
+  },
+  {
+   "tag": "objects\\vehicles\\hu_civ_car\\hu_civ_car_spr.vehi",
+   "label": "Car SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\hu_civ_car\\hu_civ_car.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\hu_civ_car\\hu_police_car_spr.vehi",
+   "label": "Police Car SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\hu_civ_car\\hu_police_car.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi",
+   "label": "Falcon SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\falcon\\falcon_mp.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\falcon\\falcon_mp_gl_spr.vehi",
+   "label": "Falcon GL SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\falcon\\falcon_mp_gl.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\sparrowhawk\\sparrowhawk_spr.vehi",
+   "label": "Sparrowhawk SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\sparrowhawk\\sparrowhawk.vehi",
+   "source": "release"
+  },
+  {
+   "tag": "objects\\vehicles\\sparrowhawk\\sparrowhawk_chaingun_spr.vehi",
+   "label": "Chaingun Sparrowhawk SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\sparrowhawk\\sparrowhawk_chaingun.vehi",
+   "source": "release"
+  },
+  {
+   "tag": "objects\\vehicles\\drone_alpha\\drone_alpha_spr.vehi",
+   "label": "Wombat SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\drone_alpha\\drone_alpha.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\sabre\\sabre_spr.vehi",
+   "label": "Sabre SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\sabre\\sabre.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\seraph_h3\\seraph_h3_spr.vehi",
+   "label": "Seraph SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\seraph_h3\\seraph_h3.vehi",
+   "source": "none",
+   "base_source": "rj",
+   "fallback_why": "its own seraph_beam projectile and damage effect and its heavy_fighter collision damage have bases RJ's repository lacks (seraph_beam, globals\\collision_damage\\vehicle_nerf); its boost collision damage has no counterpart in the base"
+  },
+  {
+   "tag": "objects\\vehicles\\seraph_reach\\seraph_reach_spr.vehi",
+   "label": "Reach Seraph SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\seraph_reach\\seraph_reach.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\pelican_multiplayer\\pelican_multiplayer_spr.vehi",
+   "label": "Pelican SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\pelican_multiplayer\\pelican_multiplayer.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\phantom_test\\phantom_test_spr.vehi",
+   "label": "Phantom SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\phantom_test\\phantom_test.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\space_phantom\\space_phantom_spr.vehi",
+   "label": "Space Phantom SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\space_phantom\\space_phantom.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\tuning_fork\\tuning_fork_spr.vehi",
+   "label": "Spirit SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\tuning_fork\\tuning_fork.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\longswordh2a\\longswordh2a_spr.vehi",
+   "label": "Longsword SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\longswordh2a\\longswordh2a.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\vulture\\vulture_spr.vehi",
+   "label": "Vulture SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\vulture\\vulture.vehi",
+   "source": "none",
+   "base_source": "release",
+   "fallback_why": "its missile explosion (turrets\\main_guns\\damage_effects\\missiles\\missile_explosion) isn't in the Vulture release (Nexus 2247), and its own collision damage has no counterpart in the base"
+  },
+  {
+   "tag": "objects\\vehicles\\condor_h3\\condor_h3_spr.vehi",
+   "label": "Condor SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\condor_h3\\condor_h3.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\lich\\lich_spr.vehi",
+   "label": "Lich SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\lich\\lich.vehi",
+   "source": "none",
+   "base_source": "rj",
+   "fallback_why": "deep parity 2026-11-23: RJ's repository lacks 14 of its bitmaps (shell and metal textures), the beam's three textures (fx\\rejectedshotgun\\bitmaps), the core lens flare's bitmap and a fireball particle; built from source its gravity beam and flare fall back to default textures. Its H5 variant is dropped from the compiled copy (compiled_fix.py)"
+  },
+  {
+   "tag": "objects\\vehicles\\albatross\\albatross_spr.vehi",
+   "label": "Albatross SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\albatross\\albatross.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\odst_pod2\\odst_pod2_spr.vehi",
+   "label": "ODST Pod SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\odst_pod2\\odst_pod2.vehi",
+   "source": "none",
+   "base_source": "rj",
+   "fallback_why": "deep parity 2026-11-23: RJ's repository lacks the pod door (objects\\vehicles\\odst_pod\\pod_door: model, render model, collision, physics, 5 shaders) and 25 bitmaps"
+  },
+  {
+   "tag": "objects\\vehicles\\mammoth\\mammoth_spr.vehi",
+   "label": "Mammoth SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\mammoth\\mammoth.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\scorpion\\scorpion_fast_spr.vehi",
+   "label": "Fast Scorpion SPR",
+   "shelf": "vehicles",
+   "note": "objects\\vehicles\\scorpion\\scorpion_fast (RJ's variant) has no source: based on objects\\vehicles\\scorpion\\scorpion",
+   "base": "objects\\vehicles\\scorpion\\scorpion.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\vehicles\\warthog\\warthog_fast_spr.vehi",
+   "label": "Fast Warthog SPR",
+   "shelf": "vehicles",
+   "note": "objects\\vehicles\\warthog\\warthog_fast (RJ's variant) has no source: based on objects\\vehicles\\warthog\\warthog",
+   "base": "objects\\vehicles\\warthog\\warthog.vehi",
+   "source": "none",
+   "base_source": "stock",
+   "fallback_why": "its rocket turret (objects\\vehicles\\warthog\\turrets\\rocket, from the Rocket Warthog port) has no source"
+  },
+  {
+   "tag": "objects\\vehicles\\warthog\\warthog_fast_gauss_spr.vehi",
+   "label": "Fast Gauss Warthog SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\warthog\\warthog_fast_gauss.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\warthog_rocket\\warthog_rocket_fast_spr.vehi",
+   "label": "Fast Rocket Warthog SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\warthog_rocket\\warthog_rocket_fast.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\skiff\\skiff_fast_spr.vehi",
+   "label": "Fast Skiff SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\skiff\\skiff_fast.vehi",
+   "source": "none",
+   "base_source": "rj",
+   "fallback_why": "deep parity 2026-11-23: as Skiff SPR (RJ's reworked Skiff: gun and seat markers not in his repository)"
+  },
+  {
+   "tag": "custom\\js\\objects\\vehicles\\kestrel\\kestrel_railgun_fast_spr.vehi",
+   "label": "Kestrel SPR",
+   "shelf": "vehicles",
+   "source_base": "custom\\js\\objects\\vehicles\\kestrel\\kestrel_railgun.vehi",
+   "note": "custom\\js\\objects\\vehicles\\kestrel\\kestrel_railgun_fast (RJ's variant) has no source: source copied from custom\\js\\objects\\vehicles\\kestrel\\kestrel_railgun, RJ's changes via deep parity",
+   "base": "custom\\js\\objects\\vehicles\\kestrel\\kestrel_railgun_fast.vehi",
+   "source": "release"
+  },
+  {
+   "tag": "objects\\vehicles\\hornet\\hornet_fast_spr.vehi",
+   "label": "Fast Hornet SPR",
+   "shelf": "vehicles",
+   "note": "objects\\vehicles\\hornet\\hornet_fast (RJ's variant) has no source: based on objects\\vehicles\\hornet\\hornet",
+   "base": "objects\\vehicles\\hornet\\hornet.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\vehicles\\wraith_minigun\\wraith_minigun_anti_air_fast_spr.vehi",
+   "label": "Fast AA Wraith SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\wraith_minigun\\wraith_minigun_anti_air_fast.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\ghost_aa\\ghost_aa_spr.vehi",
+   "label": "Fast AA Ghost SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\ghost_aa\\ghost_aa.vehi",
+   "source": "none",
+   "base_source": "rj",
+   "fallback_why": "its turret fires an SPR copy of the Anti-Air Wraith's projectile (wraith_anti_air_uf), which has no source"
+  },
+  {
+   "tag": "objects\\vehicles\\spectre\\spectre_fast_aa_spr.vehi",
+   "label": "Fast AA Spectre SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\spectre\\spectre_fast_aa.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\gravity_throne_drivable\\gravity_throne_spr.vehi",
+   "label": "Gravity Throne SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\gravity_throne_drivable\\gravity_throne.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\falcon\\falcon_gl_spr.vehi",
+   "label": "Fast Falcon GL SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\falcon\\falcon_gl.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\shade_reach\\shade_reach_spr.vehi",
+   "label": "Reach Shade SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\shade_reach\\shade_reach.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\warthog\\warthog_troop_mp_fast_spr.vehi",
+   "label": "Fast Troop Warthog SPR",
+   "shelf": "vehicles",
+   "note": "no objects\\vehicles\\warthog\\warthog_troop_mp_fast in the map: based on objects\\vehicles\\warthog\\warthog_troop_mp",
+   "base": "objects\\vehicles\\warthog\\warthog_troop_mp.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\warthog_civ\\warthog_civ_fast_spr.vehi",
+   "label": "Fast Civilian Warthog SPR",
+   "shelf": "vehicles",
+   "note": "no objects\\vehicles\\warthog_civ\\warthog_civ_fast in the map: based on objects\\vehicles\\warthog_civ\\warthog_civ",
+   "base": "objects\\vehicles\\warthog_civ\\warthog_civ.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\mongoose\\mongoose_fast_spr.vehi",
+   "label": "Fast Mongoose SPR",
+   "shelf": "vehicles",
+   "note": "no objects\\vehicles\\mongoose\\mongoose_fast in the map: based on objects\\vehicles\\mongoose\\mongoose",
+   "base": "objects\\vehicles\\mongoose\\mongoose.vehi",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\vehicles\\turret_standalone\\turret_standalone_spr.vehi",
+   "label": "Gauss Turret SPR",
+   "shelf": "vehicles",
+   "base": "objects\\vehicles\\turret_standalone\\turret_standalone.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\vehicles\\pelican_multiplayer\\pelican_multiplayer_pilot_spr.vehi",
+   "label": "Pilot Gun Pelican SPR",
+   "shelf": "vehicles",
+   "note": "no objects\\vehicles\\pelican_multiplayer\\pelican_multiplayer_pilot in the map: based on objects\\vehicles\\pelican_multiplayer\\pelican_multiplayer",
+   "base": "objects\\vehicles\\pelican_multiplayer\\pelican_multiplayer.vehi",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher_h2_spr.weap",
+   "label": "Rocket Launcher H2 SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher_h2.weap",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\weapons\\support_high\\spartan_laser\\spartan_laser_spr.weap",
+   "label": "Spartan Laser SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\support_high\\spartan_laser\\spartan_laser.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\turret\\missile_pod\\missile_pod_spr.weap",
+   "label": "Missile Pod SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\turret\\missile_pod\\missile_pod.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "dw3\\r3ach\\objects\\weapons\\support_high\\plasma_launcher\\plasma_launcher_tracking_spr.weap",
+   "label": "Plasma Launcher SPR",
+   "shelf": "weapons",
+   "source_base": "dw3\\r3ach\\objects\\weapons\\support_high\\plasma_launcher\\plasma_launcher.weap",
+   "note": "dw3\\r3ach\\objects\\weapons\\support_high\\plasma_launcher\\plasma_launcher_tracking (RJ's variant) has no source: source copied from dw3\\r3ach\\objects\\weapons\\support_high\\plasma_launcher\\plasma_launcher, RJ's changes via deep parity",
+   "base": "dw3\\r3ach\\objects\\weapons\\support_high\\plasma_launcher\\plasma_launcher_tracking.weap",
+   "source": "none",
+   "base_source": "release",
+   "fallback_why": "it fires RJ's own projectile grenade_pf, which the R3ACH release (Nexus 2646) doesn't have"
+  },
+  {
+   "tag": "objects\\weapons\\pistol\\plasma_pistol\\plasma_pistol_spr.weap",
+   "label": "Plasma Pistol SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\pistol\\plasma_pistol\\plasma_pistol.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\pistol\\plasma_pistol_power\\plasma_pistol_power_spr.weap",
+   "label": "Power Plasma Pistol SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\pistol\\plasma_pistol_power\\plasma_pistol_power.weap",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\weapons\\turret\\machinegun_turret\\machinegun_turret_spr.weap",
+   "label": "Machine Gun Turret SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\turret\\machinegun_turret\\machinegun_turret.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\turret\\plasma_cannon\\plasma_cannon_spr.weap",
+   "label": "Plasma Cannon SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\turret\\plasma_cannon\\plasma_cannon.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\rifle\\assault_rifle\\assault_rifle_spr.weap",
+   "label": "Assault Rifle SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\rifle\\assault_rifle\\assault_rifle.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\rifle\\assault_rifle_red\\assault_rifle_red_spr.weap",
+   "label": "Red Assault Rifle SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\rifle\\assault_rifle_red\\assault_rifle_red.weap",
+   "source": "none"
+  },
+  {
+   "tag": "objects\\weapons\\rifle\\battle_rifle\\battle_rifle_spr.weap",
+   "label": "Battle Rifle SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\rifle\\battle_rifle\\battle_rifle.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\rifle\\covenant_carbine\\covenant_carbine_spr.weap",
+   "label": "Carbine SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\rifle\\covenant_carbine\\covenant_carbine.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle_spr.weap",
+   "label": "Plasma Rifle SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\rifle\\plasma_rifle_red\\plasma_rifle_red_spr.weap",
+   "label": "Red Plasma Rifle SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\rifle\\plasma_rifle_red\\plasma_rifle_red.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\pistol\\magnum\\magnum_spr.weap",
+   "label": "Magnum SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\pistol\\magnum\\magnum.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\pistol\\automag\\automag_spr.weap",
+   "label": "Automag SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\pistol\\automag\\automag.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\rifle\\spike_rifle\\spike_rifle_spr.weap",
+   "label": "Spiker SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\rifle\\spike_rifle\\spike_rifle.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\pistol\\needler\\needler_spr.weap",
+   "label": "Needler SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\pistol\\needler\\needler.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\support_low\\brute_shot\\brute_shot_spr.weap",
+   "label": "Brute Shot SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\support_low\\brute_shot\\brute_shot.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\support_high\\flak_cannon\\flak_cannon_spr.weap",
+   "label": "Fuel Rod Gun SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\support_high\\flak_cannon\\flak_cannon.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "objects\\weapons\\rifle\\beam_rifle\\beam_rifle_spr.weap",
+   "label": "Beam Rifle SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\rifle\\beam_rifle\\beam_rifle.weap",
+   "source": "stock"
+  },
+  {
+   "tag": "dw3\\r3ach\\objects\\weapons\\rifle\\focus_rifle\\focus_rifle_spr.weap",
+   "label": "Focus Rifle SPR",
+   "shelf": "weapons",
+   "base": "dw3\\r3ach\\objects\\weapons\\rifle\\focus_rifle\\focus_rifle.weap",
+   "source": "none",
+   "base_source": "release",
+   "fallback_why": "deep parity 2026-11-23: RJ's version uses his own beam damage effect (projectiles\\focus_rifle_beam_pf) and the damage response globals\\damage_responses\\trigger_fullauto_noscope, which neither the R3ACH release (Nexus 2646) nor H3EK has"
+  },
+  {
+   "tag": "objects\\weapons\\support_low\\sentinel_gun\\sentinel_gun_spr.weap",
+   "label": "Sentinel Beam SPR",
+   "shelf": "weapons",
+   "base": "objects\\weapons\\support_low\\sentinel_gun\\sentinel_gun.weap",
+   "source": "stock"
+  }
+ ],
+ "left_out": []
+}

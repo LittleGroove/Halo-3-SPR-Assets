@@ -1,0 +1,20 @@
+{
+ "about": "One Forge entry per setup for every vehicle (host 2026-11-23: 'yeah do the trim, then yeah keep all the optionals'; research (2026-11-23 variants)\\variants.md). split = setups that become vehicles of their own: two keeps (Plasma Cannon Phantom, Chaingun Turret) and the 12 optionals. trim_all = every other vehicle on the Forge palette keeps only its own default variant (duplicates, wrecks offered as working vehicles, AI-only troop beds and look-alikes go). The Falcons are in splits.json.",
+ "trim_all": true,
+ "split": [
+  {"tag": "objects\\vehicles\\phantom_test\\phantom_plasma_cannon_spr", "from": "objects\\vehicles\\phantom_test\\phantom_test_spr.vehi", "variant": "long_lift", "label": "Plasma Cannon Phantom SPR"},
+  {"tag": "objects\\vehicles\\phantom_test\\phantom_searchlight_spr", "from": "objects\\vehicles\\phantom_test\\phantom_test_spr.vehi", "variant": "searchlight", "label": "Searchlight Phantom SPR"},
+  {"tag": "objects\\vehicles\\phantom_test\\phantom_unarmed_spr", "from": "objects\\vehicles\\phantom_test\\phantom_test_spr.vehi", "variant": "enemy_no_turret", "label": "Unarmed Phantom SPR"},
+  {"tag": "objects\\vehicles\\phantom_test\\phantom_side_cannon_spr", "from": "objects\\vehicles\\phantom_test\\phantom_test_spr.vehi", "variant": "no_chin_gun", "label": "Side Cannon Phantom SPR"},
+  {"tag": "objects\\vehicles\\turret_standalone\\turret_chaingun_spr", "from": "objects\\vehicles\\turret_standalone\\turret_standalone_spr.vehi", "variant": "chaingun", "label": "Chaingun Turret SPR"},
+  {"tag": "objects\\vehicles\\warthog\\warthog_unarmed_spr", "from": "objects\\vehicles\\warthog\\warthog_spr.vehi", "variant": "no_turret", "label": "Unarmed Warthog SPR"},
+  {"tag": "objects\\vehicles\\warthog\\warthog_rocket_turret_spr", "from": "objects\\vehicles\\warthog\\warthog_spr.vehi", "variant": "rocket", "label": "Standard-Paint Rocket Warthog SPR"},
+  {"tag": "objects\\vehicles\\warthog_rocket\\warthog_rocket_chaingun_spr", "from": "objects\\vehicles\\warthog_rocket\\warthog_rocket_spr.vehi", "variant": "default", "label": "Rocket-Paint Warthog SPR"},
+  {"tag": "objects\\vehicles\\warthog_rocket\\warthog_rocket_gauss_spr", "from": "objects\\vehicles\\warthog_rocket\\warthog_rocket_spr.vehi", "variant": "gauss", "label": "Rocket-Paint Gauss Warthog SPR"},
+  {"tag": "objects\\vehicles\\warthog_civ\\warthog_civ_gauss_spr", "from": "objects\\vehicles\\warthog_civ\\warthog_civ_spr.vehi", "variant": "gauss", "label": "Civilian Gauss Warthog SPR"},
+  {"tag": "objects\\vehicles\\spectre\\spectre_fast_spr", "from": "objects\\vehicles\\spectre\\spectre_fast_aa_spr.vehi", "variant": "default", "label": "Fast Spectre SPR"},
+  {"tag": "objects\\vehicles\\wraith\\wraith_flak_spr", "from": "objects\\vehicles\\wraith\\wraith_spr.vehi", "variant": "anti_air", "label": "Flak Wraith SPR"},
+  {"tag": "objects\\vehicles\\wraith_minigun\\wraith_minigun_fast_spr", "from": "objects\\vehicles\\wraith_minigun\\wraith_minigun_anti_air_fast_spr.vehi", "variant": "default", "label": "Fast Minigun Wraith SPR"},
+  {"tag": "objects\\vehicles\\scorpion\\scorpion_wrecked_spr", "from": "objects\\vehicles\\scorpion\\scorpion_spr.vehi", "variant": "wrecked", "label": "Wrecked Scorpion SPR"}
+ ]
+}

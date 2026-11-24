@@ -1,0 +1,20 @@
+{
+ "about": "Items whose base has source but which are still copied compiled from HugeGrass SPR (the fallback, host's decision 12), each with why. inventory.py marks them source 'none'. Remove an entry once its gap has source.",
+ "objects\\vehicles\\seraph_h3\\seraph_h3_spr.vehi": "its own seraph_beam projectile and damage effect and its heavy_fighter collision damage have bases RJ's repository lacks (seraph_beam, globals\\collision_damage\\vehicle_nerf); its boost collision damage has no counterpart in the base",
+ "objects\\vehicles\\warthog\\warthog_spr.vehi": "its rocket turret (objects\\vehicles\\warthog\\turrets\\rocket, from the Rocket Warthog port) has no source",
+ "objects\\vehicles\\warthog\\warthog_gauss_spr.vehi": "its rocket turret (objects\\vehicles\\warthog\\turrets\\rocket, from the Rocket Warthog port) has no source",
+ "objects\\vehicles\\warthog\\warthog_fast_spr.vehi": "its rocket turret (objects\\vehicles\\warthog\\turrets\\rocket, from the Rocket Warthog port) has no source",
+ "dw3\\r3ach\\objects\\weapons\\support_high\\plasma_launcher\\plasma_launcher_tracking_spr.weap": "it fires RJ's own projectile grenade_pf, which the R3ACH release (Nexus 2646) doesn't have",
+ "objects\\vehicles\\vulture\\vulture_spr.vehi": "its missile explosion (turrets\\main_guns\\damage_effects\\missiles\\missile_explosion) isn't in the Vulture release (Nexus 2247), and its own collision damage has no counterpart in the base",
+ "dw3\\r3ach\\objects\\weapons\\rifle\\focus_rifle\\focus_rifle_spr.weap": "deep parity 2026-11-23: RJ's version uses his own beam damage effect (projectiles\\focus_rifle_beam_pf) and the damage response globals\\damage_responses\\trigger_fullauto_noscope, which neither the R3ACH release (Nexus 2646) nor H3EK has",
+ "objects\\vehicles\\shadow\\shadow_fast_spr.vehi": "deep parity 2026-11-23: RJ's compiled Shadow isn't his repository's: its physics masses spread over the 7 shapes differently (no relative mass scales reproduce them), its gunner seat uses another animation, and its projectile has an effect his repository's lacks",
+ "objects\\vehicles\\warthog\\warthog_wrecked_turret_spr.vehi": "its rocket turret (objects\\vehicles\\warthog\\turrets\\rocket, from the Rocket Warthog port) has no source",
+ "objects\\vehicles\\ghost_aa\\ghost_aa_spr.vehi": "its turret fires an SPR copy of the Anti-Air Wraith's projectile (wraith_anti_air_uf), which has no source",
+ "objects\\vehicles\\spectre\\spectre_spr.vehi": "its turret fires an SPR copy of the flyable Phantom's turret projectile (phantom_flyable), which has no source",
+ "objects\\vehicles\\spectre\\spectre_aa_spr.vehi": "its turret fires an SPR copy of the flyable Phantom's turret projectile (phantom_flyable), which has no source",
+ "objects\\vehicles\\lich\\lich_spr.vehi": "deep parity 2026-11-23: RJ's repository lacks 14 of its bitmaps (shell and metal textures), the beam's three textures (fx\\rejectedshotgun\\bitmaps), the core lens flare's bitmap and a fireball particle; built from source its gravity beam and flare fall back to default textures. Its H5 variant is dropped from the compiled copy (compiled_fix.py)",
+ "objects\\vehicles\\odst_pod2\\odst_pod2_spr.vehi": "deep parity 2026-11-23: RJ's repository lacks the pod door (objects\\vehicles\\odst_pod\\pod_door: model, render model, collision, physics, 5 shaders) and 25 bitmaps",
+ "objects\\vehicles\\skiff\\skiff_spr.vehi": "deep parity 2026-11-23: RJ's compiled Skiff is a rework beyond his repository: its gun (skiff_turret\\weapon\\skiff_gun, skiff_bullet) isn't in the repository, and the render model has new seat markers (skiff_p_lb) the repository's lacks; 82 vehicle fields differ",
+ "objects\\vehicles\\skiff\\skiff_fast_spr.vehi": "deep parity 2026-11-23: as Skiff SPR (RJ's reworked Skiff: gun and seat markers not in his repository)",
+ "objects\\vehicles\\space_banshee\\space_banshee_spr.vehi": "deep parity 2026-11-23: its projectile effect in RJ's repository isn't his compiled one (other parts; the flare's bitmap objects\\vehicles\\space_phantom\\bitmaps\\star_flare is missing)"
+}

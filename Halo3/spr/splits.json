@@ -1,0 +1,22 @@
+{
+ "about": "One Forge entry per configuration (host 2026-11-23 on the Falcons: 'consolidating them to those 4 would probably be the best move. and then their fast versions'). Project Reclaimer offers every model variant of a Forge object as its own entry, so 3 Falcon vehicles x 4 variants made 12. split_variants.py makes each new vehicle a copy of 'from' whose own model copy holds only 'variant', named 'label', and takes the 'retire' vehicles off the Forge palette. Variants (RJ's model): default = chin gun + side chainguns, grenade = chin gun + side grenade launchers, mp = side chainguns only, mp_gl = side grenade launchers only. Handling: normal = Falcon GL SPR's (host: up acceleration 14.6), fast = Fast Falcon GL SPR's. Seats (host: 'go with the 9 seats'): falcon_mp_spr's 9 = pilot, two door passengers, four boarding positions, and two more door seats for AI noncombatants only (Invalid For Player); 5 are a player's on every Falcon. Pilot seat: RJ's chin-gun Falcon (falcon_gl) flags its pilot Gunner + Prevents Weapon Stowing and his gunless ones (falcon_mp, falcon_mp_gl) don't, so chin-gun configurations take falcon_gl_spr's pilot flags and the others falcon_mp_spr's.",
+ "retire": ["objects\\vehicles\\falcon\\falcon_mp_spr.vehi", "objects\\vehicles\\falcon\\falcon_mp_gl_spr.vehi", "objects\\vehicles\\falcon\\falcon_gl_spr.vehi"],
+ "split": [
+  {"tag": "objects\\vehicles\\falcon\\falcon_chaingun_spr", "from": "objects\\vehicles\\falcon\\falcon_mp_gl_spr.vehi", "variant": "mp", "label": "Falcon SPR",
+   "seats_from": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi", "pilot_from": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi"},
+  {"tag": "objects\\vehicles\\falcon\\falcon_grenade_spr", "from": "objects\\vehicles\\falcon\\falcon_mp_gl_spr.vehi", "variant": "mp_gl", "label": "Falcon GL SPR",
+   "seats_from": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi", "pilot_from": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi"},
+  {"tag": "objects\\vehicles\\falcon\\falcon_chin_chaingun_spr", "from": "objects\\vehicles\\falcon\\falcon_mp_gl_spr.vehi", "variant": "default", "label": "Falcon Chin Gun SPR",
+   "seats_from": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi", "pilot_from": "objects\\vehicles\\falcon\\falcon_gl_spr.vehi"},
+  {"tag": "objects\\vehicles\\falcon\\falcon_chin_grenade_spr", "from": "objects\\vehicles\\falcon\\falcon_mp_gl_spr.vehi", "variant": "grenade", "label": "Falcon Chin Gun GL SPR",
+   "seats_from": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi", "pilot_from": "objects\\vehicles\\falcon\\falcon_gl_spr.vehi"},
+  {"tag": "objects\\vehicles\\falcon\\falcon_fast_chaingun_spr", "from": "objects\\vehicles\\falcon\\falcon_gl_spr.vehi", "variant": "mp", "label": "Fast Falcon SPR",
+   "seats_from": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi", "pilot_from": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi"},
+  {"tag": "objects\\vehicles\\falcon\\falcon_fast_grenade_spr", "from": "objects\\vehicles\\falcon\\falcon_gl_spr.vehi", "variant": "mp_gl", "label": "Fast Falcon GL SPR",
+   "seats_from": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi", "pilot_from": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi"},
+  {"tag": "objects\\vehicles\\falcon\\falcon_fast_chin_chaingun_spr", "from": "objects\\vehicles\\falcon\\falcon_gl_spr.vehi", "variant": "default", "label": "Fast Falcon Chin Gun SPR",
+   "seats_from": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi", "pilot_from": "objects\\vehicles\\falcon\\falcon_gl_spr.vehi"},
+  {"tag": "objects\\vehicles\\falcon\\falcon_fast_chin_grenade_spr", "from": "objects\\vehicles\\falcon\\falcon_gl_spr.vehi", "variant": "grenade", "label": "Fast Falcon Chin Gun GL SPR",
+   "seats_from": "objects\\vehicles\\falcon\\falcon_mp_spr.vehi", "pilot_from": "objects\\vehicles\\falcon\\falcon_gl_spr.vehi"}
+ ]
+}
